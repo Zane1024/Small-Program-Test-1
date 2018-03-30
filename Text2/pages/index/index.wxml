@@ -10,13 +10,10 @@
   </view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
-<<<<<<< HEAD
     <text class="user-motto">我来冲突冲突过</text>
     <text class="user-motto">我来过</text>
     <text class="user-motto">我来冲突冲突过</text>
     <text class="user-motto">我来冲突冲突过</text>
     <text class="user-motto">我来冲突冲突过</text>
-=======
->>>>>>> 1942e1918de143f5ef0eff944402224e0235e47a
   </view>
 </view>
