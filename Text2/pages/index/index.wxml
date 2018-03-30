@@ -10,6 +10,10 @@
   </view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
+    <text class="user-motto">我来冲突冲突过</text>
     <text class="user-motto">我来过</text>
+    <text class="user-motto">我来冲突冲突过</text>
+    <text class="user-motto">我来冲突冲突过</text>
+    <text class="user-motto">我来冲突冲突过</text>
   </view>
 </view>
