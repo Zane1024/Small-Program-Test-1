@@ -1,0 +1,29 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+.viewnavigator{
+    margin: 0;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    background: #fff;
+}
+.navigator {
+    height: 100%;
+    display: block;
+    border-radius: 6px;
+    padding: 10px;
+    background-image: linear-gradient(#ff8e64 0, #ffe641 100%);
+    color: #fff;
+    float: left;
+    margin: 3px;
+}

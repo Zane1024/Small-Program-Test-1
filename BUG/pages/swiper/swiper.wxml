@@ -1,0 +1,26 @@
+<!--pages/swiper/index.wxml-->
+<progress percent="60" show-info="true" stroke-width="3" active="true"></progress>
+<swiper autoplay="{{autoplay}}" indicator-dots="{{indicator}}" indicator-active-color="green">
+    <block wx:for="{{imgUrls}}">
+        <swiper-item>
+            <image src='{{item.images}}' />
+        </swiper-item>
+    </block>
+</swiper>
+<view class='textView'>
+    <icon type="success" size="20" color="green" />
+        <text>{{ttt[3].title}}</text>
+</view>
+
+<button bindtap="loadingRequest" type="primary" loading="{{loading}}">模态框</button>
+
+<map longitude="113.324520" latitude="23.099994"></map>
+<view class='.viewnavigator'>
+
+    <navigator url='../swiper/swiper' class='.navigator' open-type="redirect">切换</navigator>
+    <navigator url='../swiper/swiper' class='.navigator'>切换</navigator>
+    <navigator url='../swiper/swiper' class='.navigator'>切换</navigator>
+    <navigator url='../swiper/swiper' class='.navigator'>切换</navigator>
+    <navigator url='../swiper/swiper' class='.navigator'>切换</navigator>
+
+</view>
