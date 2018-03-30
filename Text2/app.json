@@ -1,14 +1,12 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/swiper/swiper",
     "pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "巴黎孤儿所",
+    "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"
-    
   }
 }

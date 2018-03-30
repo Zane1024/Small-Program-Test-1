@@ -4,20 +4,16 @@ const app = getApp()
 
 Page({
   data: {
-
-    motto: 'Hello 很荣幸成为第一个孤儿',
+    motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
   //事件处理函数
   bindViewTap: function() {
-      console.log("我会进来了吗"),
-      
     wx.navigateTo({
-      url: '../swiper/swiper'
+      url: '../logs/logs'
     })
-  
   },
   onLoad: function () {
     if (app.globalData.userInfo) {
